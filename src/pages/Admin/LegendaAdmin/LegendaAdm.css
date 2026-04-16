@@ -1,0 +1,34 @@
+.circle-yellow {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: var(--color-menor-risco);
+}
+
+.circle-red {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: var(--color-maior-risco);
+}
+
+.legenda-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.grid-legenda {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.informacao-legenda {
+  color: var(--color-secundary);
+  text-align: center;
+  padding-top: 15px;
+}

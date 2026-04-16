@@ -1,0 +1,19 @@
+footer {
+  background-color: var(--color-gray);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-weight: 700;
+}
+
+.name-rodape {
+  color: var(--color-primary);
+}

@@ -1,0 +1,173 @@
+/* Home */
+#banner {
+  width: 100%;
+  min-height: 583px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tittle-home {
+  font-weight: 700;
+  font-size: 2em;
+  padding-bottom: 25px;
+  max-width: 100%;
+}
+
+.tittle-home {
+  color: var(--color-font);
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.descricao-home {
+  color: var(--color-font);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.button-home {
+  font-weight: 700;
+  color: var(--color-primary);
+  background-color: var(--color-font);
+  border: 1px solid;
+  padding: 15px;
+}
+
+.button-home:hover {
+  color: white;
+  border: 1px solid var(--color-gray);
+
+}
+
+#notbook-banner {
+  width: 25rem;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.destaque-home {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.paragraph-home {
+  color: var(--color-description);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 5%;
+}
+
+.button-repository {
+  color: var(--color-primary);
+  background: transparent;
+  outline: none;
+  transition: all 0.5s;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  text-decoration: none;
+
+  font-weight: 700;
+  padding: 8px;
+  width: 255px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-repository:hover {
+  background: var(--color-primary);
+  color: var(--color-font);
+  border: none;
+}
+
+#icons {
+  width: 25px;
+  height: 25px;
+}
+
+.icons-adm {
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  #banner {
+    min-height: 400px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login */
+#bg-login {
+  background-color: var(--color-descricao);
+}
+
+#box-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box {
+  width: 96%;
+  max-width: 516px;
+  background-color: var(--color-secundary);
+  padding: 64px 48px;
+  border-radius: 10px;
+
+  box-shadow: -1px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo-login {
+  padding-bottom: 46px;
+}
+
+.gray {
+  color: var(--color-description);
+  font-weight: 500;
+}
+
+.login {
+  background-color: var(--color-primary);
+  width: 100%;
+  border: none;
+
+}
+
+.login:hover {
+  /* border: 2px solid var(--color-primary); */
+  background-color: var(--color-primary);
+  /* color: var(--color-primary); */
+}
+
+.person {
+  background-image: url(../images/person-outline.svg);
+}
+
+.senha {
+  text-decoration: none;
+  padding: 15px 0;
+  color: var(--color-primary);
+  font-weight: 600;
+}

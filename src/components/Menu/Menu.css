@@ -1,0 +1,50 @@
+
+img, svg {
+  vertical-align: middle;
+  width: 100px;
+}
+
+.inner-text {
+  font-size: 1em;
+  padding: 12px 0;
+  gap: 20px;
+}
+
+.nav-link {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.btn-login {
+  font-size: 1em;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.btn-cadastrar {
+  font-size: 1em;
+  color: var(--color-gray);
+  font-weight: 500;
+  background-color: var(--color-primary);
+  width: 15%;
+}
+
+.btn-login:hover {
+color: var(--color-primary);
+}
+
+.btn-cadastrar:hover {
+  color: var(--color-primary);
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
